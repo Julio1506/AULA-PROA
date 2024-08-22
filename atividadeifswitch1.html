@@ -17,6 +17,8 @@
             console.log("valor negativo")
         }
 
+        console.log("  ")
+
         //mostrar se o número é par ou ímpar
         let num = 1
         if (num % 2==0){
@@ -24,6 +26,8 @@
         } else {
             console.log("Este número é ímpar!")
         }
+
+         console.log("  ")
 
         //mostrar se a idade de alguem classifica ela como criança, adolescente, jovem ou adulto
         let idade = 19
@@ -37,19 +41,23 @@
             console.log("Idoso")
         }
 
+         console.log("  ")
+
         //mostrar a classificação de uma nota como A, B, C, D, F com base no valor númerico
         let nota = 10
-        if (nota>=0){
-            console.log('A nota é F')
-        } else if(nota>=3){
-            console.log('A nota é D')
-        } else if(nota>=5){
-            console.log('A nota é C')
-        } else if(nota>=7){
-            console.log('A nota é B')
+        if (nota>=0 && nota <=2){
+           console.log('A nota é F')
+        } else if(nota>=3 && nota <=4){
+           console.log('A nota é D')
+        } else if(nota>=5 && nota < 7){
+           console.log('A nota é C')
+        } else if(nota>=7 && nota < 10){
+           console.log('A nota é B')
         } else if (nota==10){
-            console.log('A nota é A')
+           console.log('A nota é A')
         }
+
+         console.log("  ")
 
         //usar o switch para mostrar todos os dias da semana
         let diadasemana = 5;
@@ -84,6 +92,8 @@
                 dia = "Dia inválido";
         }
         console.log(dia);
+
+         console.log("  ")
         
         //mostrar o cálculo do bonus do faturamento de um vendedor
         let faturamento = 7000
