@@ -89,7 +89,7 @@
         let bonus
         if (faturamento <1000){
             console.log("Não ganhou bônus.")
-        } else if (faturamento >=1000){
+        } else if (faturamento < 4999){
             bonus = faturamento * 0.05
             console.log("Ganhou um bônus de 5%, o valor total é:", faturamento + bonus)
         } else if(faturamento >=5000){
